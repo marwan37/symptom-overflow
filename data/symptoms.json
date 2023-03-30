@@ -1,0 +1,1509 @@
+[
+  {
+    "id": 1,
+    "symptom": "Build-up of fluid in/around the stomach",
+    "medical_term": "Abdominal fluid distention",
+    "related_terms": ["Abdominal swelling", "Abdominal distention"]
+  },
+  {
+    "id": 2,
+    "symptom": "Abdominal swelling",
+    "medical_term": "Abdominal Distention",
+    "related_terms": ["Abdominal swelling", "Abdominal distention"]
+  },
+  {
+    "id": 3,
+    "symptom": "Achiness in calves",
+    "medical_term": "Calf muscle pain",
+    "related_terms": ["Lower extremity pain"]
+  },
+  {
+    "id": 4,
+    "symptom": "Achiness in feet",
+    "medical_term": "Foot pain",
+    "related_terms": ["Lower extremity pain"]
+  },
+  {
+    "id": 5,
+    "symptom": "Achiness in legs",
+    "medical_term": "Leg pain",
+    "related_terms": ["Lower extremity pain"]
+  },
+  {
+    "id": 6,
+    "symptom": "Achiness in thighs",
+    "medical_term": "Thigh pain",
+    "related_terms": ["Lower extremity pain"]
+  },
+  {
+    "id": 7,
+    "symptom": "Altered sensorium",
+    "medical_term": "Altered mental status",
+    "related_terms": ["Altered mentation,Alteration in mental status"]
+  },
+  {
+    "id": 8,
+    "symptom": "Anxiety",
+    "medical_term": "Anxiety",
+    "related_terms": ["Constant worrying"]
+  },
+  {
+    "id": 9,
+    "symptom": "Back pain",
+    "medical_term": "Lumbago",
+    "related_terms": []
+  },
+  {
+    "id": 10,
+    "symptom": "Bad breath",
+    "medical_term": "Halitosis",
+    "related_terms": ["Rancid breath", "Foul-smelling breath"]
+  },
+  {
+    "id": 11,
+    "symptom": "Bladder discomfort",
+    "medical_term": "Bladder pain,Bladder pressure,Pelvic Pain",
+    "related_terms": []
+  },
+  {
+    "id": 12,
+    "symptom": "Blister",
+    "medical_term": "Blister",
+    "related_terms": []
+  },
+  {
+    "id": 13,
+    "symptom": "Bloating",
+    "medical_term": "Abdominal bloating",
+    "related_terms": ["Excess buildup of gas, air or fluids in the stomach"]
+  },
+  {
+    "id": 14,
+    "symptom": "Blood in sputum",
+    "medical_term": "Hemoptysis",
+    "related_terms": ["Bloody cough", "Productive cough"]
+  },
+  {
+    "id": 15,
+    "symptom": "Blood in stool",
+    "medical_term": "Hematochezia",
+    "related_terms": []
+  },
+  {
+    "id": 16,
+    "symptom": "Bloody diarrhea",
+    "medical_term": "Bloody diarrhea",
+    "related_terms": []
+  },
+  {
+    "id": 17,
+    "symptom": "Blue lips",
+    "medical_term": "Cyanosis of the lips",
+    "related_terms": []
+  },
+  {
+    "id": 18,
+    "symptom": "Blue skin",
+    "medical_term": "Cyanosis of the skin",
+    "related_terms": ["Bluish discoloration of the skin"]
+  },
+  {
+    "id": 19,
+    "symptom": "Blurry Vision",
+    "medical_term": "Blurry vision",
+    "related_terms": ["Visual disturbances", "Hazy vision", "Blurred vision"]
+  },
+  {
+    "id": 20,
+    "symptom": "Breathlessness",
+    "medical_term": "Dyspnea",
+    "related_terms": ["Shortness of breath"]
+  },
+  {
+    "id": 21,
+    "symptom": "Burning in calves",
+    "medical_term": "Venous reflux",
+    "related_terms": ["Calf pain, Lower extremity pain"]
+  },
+  {
+    "id": 22,
+    "symptom": "Burning sensation in feet",
+    "medical_term": "Paresthesia",
+    "related_terms": ["Lower extremity pain", "Foot pain"]
+  },
+  {
+    "id": 23,
+    "symptom": "Burning sensation in legs",
+    "medical_term": "Paresthesia",
+    "related_terms": ["Lower extremity pain", "Leg Pain"]
+  },
+  {
+    "id": 24,
+    "symptom": "Burning sensation in thighs",
+    "medical_term": "Paresthesia",
+    "related_terms": ["Meralgia paresthetica", "Burning sensation in thighs", "Pain in thighs"]
+  },
+  {
+    "id": 25,
+    "symptom": "Burning on urination",
+    "medical_term": "Dysuria",
+    "related_terms": ["Painful micturition", "Burning micturition"]
+  },
+  {
+    "id": 26,
+    "symptom": "Burping",
+    "medical_term": "Belching",
+    "related_terms": []
+  },
+  {
+    "id": 27,
+    "symptom": "Chest discomfort",
+    "medical_term": "Angina",
+    "related_terms": []
+  },
+  {
+    "id": 28,
+    "symptom": "Chest pain",
+    "medical_term": "Chest pain",
+    "related_terms": ["Angina", "Chest discomfort"]
+  },
+  {
+    "id": 29,
+    "symptom": "Chest pressure",
+    "medical_term": "Angina",
+    "related_terms": ["Chest pain"]
+  },
+  {
+    "id": 30,
+    "symptom": "Chest tightness",
+    "medical_term": "Chest tightness",
+    "related_terms": ["Chest discomfort", "Dysphagia"]
+  },
+  {
+    "id": 31,
+    "symptom": "Chills",
+    "medical_term": "Chills",
+    "related_terms": ["Shivering"]
+  },
+  {
+    "id": 32,
+    "symptom": "Choking sensation",
+    "medical_term": "Dysphagia",
+    "related_terms": []
+  },
+  {
+    "id": 33,
+    "symptom": "Coldness in the arms",
+    "medical_term": "Raynaud's syndrome",
+    "related_terms": ["Coldness in the extremities", "Raynaud's"]
+  },
+  {
+    "id": 34,
+    "symptom": "Confusion",
+    "medical_term": "Confusion",
+    "related_terms": ["Altered mentation", "Alteration in mental status", "Altered mental status"]
+  },
+  {
+    "id": 35,
+    "symptom": "Constipation",
+    "medical_term": "Constipation",
+    "related_terms": []
+  },
+  {
+    "id": 36,
+    "symptom": "Continuous urge to urinate",
+    "medical_term": "Overactive bladder",
+    "related_terms": ["Urinary incontinence"]
+  },
+  {
+    "id": 37,
+    "symptom": "Cough",
+    "medical_term": "Cough",
+    "related_terms": []
+  },
+  {
+    "id": 38,
+    "symptom": "Dark black stools",
+    "medical_term": "Melena",
+    "related_terms": ["Dark black, tarry feces"]
+  },
+  {
+    "id": 39,
+    "symptom": "Decreased bodily movement",
+    "medical_term": "Hypokinesia",
+    "related_terms": ["Slow movements"]
+  },
+  {
+    "id": 40,
+    "symptom": "Depression",
+    "medical_term": "Depression",
+    "related_terms": ["Feeling down", "Feeling sad", "Depressed"]
+  },
+  {
+    "id": 41,
+    "symptom": "Diarrhea",
+    "medical_term": "Diarrhea",
+    "related_terms": []
+  },
+  {
+    "id": 42,
+    "symptom": "Difficulty performing simple mathematical tasks",
+    "medical_term": "Acalculia",
+    "related_terms": []
+  },
+  {
+    "id": 43,
+    "symptom": "Difficulty swallowing",
+    "medical_term": "Dysphagia",
+    "related_terms": []
+  },
+  {
+    "id": 44,
+    "symptom": "Difficulty understanding language",
+    "medical_term": "Aphasia",
+    "related_terms": ["Inability to comprehend or formulate language"]
+  },
+  {
+    "id": 45,
+    "symptom": "Discolored nasal discharge",
+    "medical_term": "Purulent nasal discharge",
+    "related_terms": []
+  },
+  {
+    "id": 46,
+    "symptom": "Dizziness",
+    "medical_term": "Vertigo",
+    "related_terms": ["Feeling dizzy"]
+  },
+  {
+    "id": 47,
+    "symptom": "Double vision",
+    "medical_term": "Diplopia",
+    "related_terms": ["Visual disturbances"]
+  },
+  {
+    "id": 48,
+    "symptom": "Drooling or spitting",
+    "medical_term": "Hypersalivation",
+    "related_terms": []
+  },
+  {
+    "id": 49,
+    "symptom": "Drooping of the eyelid",
+    "medical_term": "Ptosis",
+    "related_terms": []
+  },
+  {
+    "id": 50,
+    "symptom": "Dry mouth",
+    "medical_term": "Xerostomia",
+    "related_terms": []
+  },
+  {
+    "id": 51,
+    "symptom": "Dry or persistent cough",
+    "medical_term": "Dry or persistent cough",
+    "related_terms": []
+  },
+  {
+    "id": 52,
+    "symptom": "Ear discharge/drainage",
+    "medical_term": "Otorrhea",
+    "related_terms": ["Ear discharge", "Ear drainage"]
+  },
+  {
+    "id": 53,
+    "symptom": "Ear fullness",
+    "medical_term": "Ear fullness",
+    "related_terms": ["Feeling of fullness in ear", "Sensation of fullness in ear"]
+  },
+  {
+    "id": 54,
+    "symptom": "Ear irritation",
+    "medical_term": "Ear irritation",
+    "related_terms": []
+  },
+  {
+    "id": 55,
+    "symptom": "Ear pain",
+    "medical_term": "Otalgia",
+    "related_terms": ["Unilateral ear pain"]
+  },
+  {
+    "id": 56,
+    "symptom": "Ear pain (right & left)",
+    "medical_term": "Otalgia",
+    "related_terms": ["Bilateral ear pain"]
+  },
+  {
+    "id": 57,
+    "symptom": "External ear pain",
+    "medical_term": "Otalgia around the external ear",
+    "related_terms": ["External ear pain with manipulation", "Unilateral ear pain"]
+  },
+  {
+    "id": 58,
+    "symptom": "Easily tiring during exercise or activity",
+    "medical_term": "Dyspnea on exertion",
+    "related_terms": []
+  },
+  {
+    "id": 59,
+    "symptom": "Enlarged thyroid",
+    "medical_term": "Thyromegaly",
+    "related_terms": []
+  },
+  {
+    "id": 60,
+    "symptom": "Excessive hunger",
+    "medical_term": "Hyperphagia",
+    "related_terms": ["Increased appetite"]
+  },
+  {
+    "id": 61,
+    "symptom": "Excessive passage of gas",
+    "medical_term": "Flatulence",
+    "related_terms": []
+  },
+  {
+    "id": 62,
+    "symptom": "Exhaustion",
+    "medical_term": "Fatigue",
+    "related_terms": []
+  },
+  {
+    "id": 63,
+    "symptom": "Extreme thirst",
+    "medical_term": "Polydipsia",
+    "related_terms": []
+  },
+  {
+    "id": 64,
+    "symptom": "Fainting",
+    "medical_term": "Syncope",
+    "related_terms": []
+  },
+  {
+    "id": 65,
+    "symptom": "Fast heartbeat",
+    "medical_term": "Tachycardia",
+    "related_terms": ["Fast heart rate"]
+  },
+  {
+    "id": 66,
+    "symptom": "Fatigue",
+    "medical_term": "Fatigue",
+    "related_terms": []
+  },
+  {
+    "id": 67,
+    "symptom": "Feeling of incomplete defecation",
+    "medical_term": "Rectal tenesmus",
+    "related_terms": []
+  },
+  {
+    "id": 68,
+    "symptom": "Feeling sick",
+    "medical_term": "Malaise",
+    "related_terms": []
+  },
+  {
+    "id": 69,
+    "symptom": "Excessive sweating",
+    "medical_term": "Hyperhidrosis",
+    "related_terms": []
+  },
+  {
+    "id": 70,
+    "symptom": "Fever (above 101°F or 38.33°C)",
+    "medical_term": "Fever",
+    "related_terms": ["Fever", "Pyrexia"]
+  },
+  {
+    "id": 71,
+    "symptom": "Low-grade fever (up to 101°F or 38.33°C )",
+    "medical_term": "Low-grade fever",
+    "related_terms": []
+  },
+  {
+    "id": 72,
+    "symptom": "Flat spots on skin",
+    "medical_term": "Macules",
+    "related_terms": []
+  },
+  {
+    "id": 73,
+    "symptom": "Dry, scaly, shiny skin",
+    "medical_term": "Dry, scaly, shiny skin",
+    "related_terms": []
+  },
+  {
+    "id": 74,
+    "symptom": "Foul smell of urine",
+    "medical_term": "Foul smelling urine",
+    "related_terms": []
+  },
+  {
+    "id": 75,
+    "symptom": "Gait abnormality",
+    "medical_term": "Ataxia",
+    "related_terms": []
+  },
+  {
+    "id": 76,
+    "symptom": "Headache",
+    "medical_term": "Headache",
+    "related_terms": []
+  },
+  {
+    "id": 77,
+    "symptom": "Headaches in the morning",
+    "medical_term": "Morning headaches",
+    "related_terms": []
+  },
+  {
+    "id": 78,
+    "symptom": "Hearing Loss",
+    "medical_term": "Hearing loss",
+    "related_terms": []
+  },
+  {
+    "id": 79,
+    "symptom": "Burning sensation in your chest (heartburn)",
+    "medical_term": "Heartburn",
+    "related_terms": [""]
+  },
+  {
+    "id": 80,
+    "symptom": "Heartbeats that feel rapid, pounding or fluttering (palpitations)",
+    "medical_term": "Palpitations",
+    "related_terms": []
+  },
+  {
+    "id": 81,
+    "symptom": "Dry heaving or gagging",
+    "medical_term": "Retching",
+    "related_terms": []
+  },
+  {
+    "id": 82,
+    "symptom": "High blood sugar",
+    "medical_term": "Hyperglycemia",
+    "related_terms": ["Irregular blood sugar"]
+  },
+  {
+    "id": 83,
+    "symptom": "Hip pain",
+    "medical_term": "Hip pain",
+    "related_terms": ["Joint pain"]
+  },
+  {
+    "id": 84,
+    "symptom": "History of alcohol consumption",
+    "medical_term": "Alcoholism",
+    "related_terms": ["Alcohol intake"]
+  },
+  {
+    "id": 85,
+    "symptom": "Changes in the pitch or quality of the voice",
+    "medical_term": "Hoarseness",
+    "related_terms": ["Weak,scratchy or husky voice"]
+  },
+  {
+    "id": 86,
+    "symptom": "Inability to move",
+    "medical_term": "Paralysis",
+    "related_terms": []
+  },
+  {
+    "id": 87,
+    "symptom": "Indigestion",
+    "medical_term": "Dyspepsia",
+    "related_terms": []
+  },
+  {
+    "id": 88,
+    "symptom": "Involuntary flexion or extension of the arms and legs",
+    "medical_term": "Abnormal posturing",
+    "related_terms": []
+  },
+  {
+    "id": 89,
+    "symptom": "Involuntary muscle contractions",
+    "medical_term": "Tremor",
+    "related_terms": ["Tremors"]
+  },
+  {
+    "id": 90,
+    "symptom": "Irregular heartbeat",
+    "medical_term": "Arrhythmia",
+    "related_terms": []
+  },
+  {
+    "id": 91,
+    "symptom": "Irritability",
+    "medical_term": "Irritability",
+    "related_terms": []
+  },
+  {
+    "id": 92,
+    "symptom": "Irritation in anus",
+    "medical_term": "Pruritus ani",
+    "related_terms": []
+  },
+  {
+    "id": 93,
+    "symptom": "Itching",
+    "medical_term": "Itching",
+    "related_terms": []
+  },
+  {
+    "id": 94,
+    "symptom": "Jaw pain",
+    "medical_term": "TMJ pain",
+    "related_terms": []
+  },
+  {
+    "id": 95,
+    "symptom": "Joint swelling",
+    "medical_term": "Joint swelling",
+    "related_terms": ["Swelling of the joints"]
+  },
+  {
+    "id": 96,
+    "symptom": "Joint pain",
+    "medical_term": "Joint pain",
+    "related_terms": []
+  },
+  {
+    "id": 97,
+    "symptom": "Knee pain",
+    "medical_term": "Knee pain",
+    "related_terms": []
+  },
+  {
+    "id": 98,
+    "symptom": "Lack or loss of appetite",
+    "medical_term": "Anorexia",
+    "related_terms": []
+  },
+  {
+    "id": 99,
+    "symptom": "Lack of concentration",
+    "medical_term": "Inability to concentrate",
+    "related_terms": ["Hard to focus", "Hard to concentrate", "Difficulties with concentration"]
+  },
+  {
+    "id": 100,
+    "symptom": "Lack of control over defecation",
+    "medical_term": "Fecal incontinence",
+    "related_terms": ["Encopresis"]
+  },
+  {
+    "id": 101,
+    "symptom": "Lack of control over defecation and gas",
+    "medical_term": "Anal incontinence",
+    "related_terms": []
+  },
+  {
+    "id": 102,
+    "symptom": "Lack of voluntary coordination of muscle movements",
+    "medical_term": "Ataxia",
+    "related_terms": []
+  },
+  {
+    "id": 103,
+    "symptom": "Leg pain (Left side)",
+    "medical_term": "Unilateral leg pain",
+    "related_terms": []
+  },
+  {
+    "id": 104,
+    "symptom": "Leg pain (Right side)",
+    "medical_term": "Unilateral leg pain",
+    "related_terms": []
+  },
+  {
+    "id": 105,
+    "symptom": "Light sensitivity",
+    "medical_term": "Photophobia",
+    "related_terms": []
+  },
+  {
+    "id": 106,
+    "symptom": "Lightheadedness",
+    "medical_term": "Vertigo",
+    "related_terms": ["Light-headedness", "Lightheaded"]
+  },
+  {
+    "id": 107,
+    "symptom": "Loss of ability to recognize objects, persons, sounds, shapes, or smells",
+    "medical_term": "Agnosia",
+    "related_terms": ["Inability to process sensory information"]
+  },
+  {
+    "id": 108,
+    "symptom": "Loss of balance",
+    "medical_term": "Vertigo",
+    "related_terms": []
+  },
+  {
+    "id": 109,
+    "symptom": "Loss of muscle mass",
+    "medical_term": "Cachexia",
+    "related_terms": ["Muscle wasting", "Loss of muscle tissue"]
+  },
+  {
+    "id": 110,
+    "symptom": "Loss of smell",
+    "medical_term": "Anosmia",
+    "related_terms": []
+  },
+  {
+    "id": 111,
+    "symptom": "Memory loss",
+    "medical_term": "Amnesia",
+    "related_terms": []
+  },
+  {
+    "id": 112,
+    "symptom": "Mood Swings",
+    "medical_term": "Cyclothymia",
+    "related_terms": []
+  },
+  {
+    "id": 113,
+    "symptom": "Motion sickness",
+    "medical_term": "Motion sickness",
+    "related_terms": []
+  },
+  {
+    "id": 114,
+    "symptom": "Mucoid sputum",
+    "medical_term": "Mucoid sputum",
+    "related_terms": ["Mucoid phlegm"]
+  },
+  {
+    "id": 115,
+    "symptom": "Muffled hearing",
+    "medical_term": "Ear fullness",
+    "related_terms": []
+  },
+  {
+    "id": 116,
+    "symptom": "Nausea",
+    "medical_term": "Nausea",
+    "related_terms": []
+  },
+  {
+    "id": 117,
+    "symptom": "Near fainting",
+    "medical_term": "Pre-syncope",
+    "related_terms": []
+  },
+  {
+    "id": 118,
+    "symptom": "Neck pain",
+    "medical_term": "Cervicalgia",
+    "related_terms": []
+  },
+  {
+    "id": 119,
+    "symptom": "Nosebleeds",
+    "medical_term": "Epistaxis",
+    "related_terms": []
+  },
+  {
+    "id": 120,
+    "symptom": "Numbness",
+    "medical_term": "Numbness",
+    "related_terms": []
+  },
+  {
+    "id": 121,
+    "symptom": "Obesity",
+    "medical_term": "Obesity",
+    "related_terms": []
+  },
+  {
+    "id": 122,
+    "symptom": "Pain",
+    "medical_term": "Pain",
+    "related_terms": []
+  },
+  {
+    "id": 123,
+    "symptom": "Pain during bowel movements",
+    "medical_term": "Dyschezia",
+    "related_terms": ["Pain with defecation", "Painful stools"]
+  },
+  {
+    "id": 124,
+    "symptom": "Pain in anal region",
+    "medical_term": "Proctalgia",
+    "related_terms": []
+  },
+  {
+    "id": 125,
+    "symptom": "Pain in calves",
+    "medical_term": "Bilateral lower extremity pain",
+    "related_terms": []
+  },
+  {
+    "id": 126,
+    "symptom": "Pain in feet",
+    "medical_term": "Bilateral lower extremity pain",
+    "related_terms": []
+  },
+  {
+    "id": 127,
+    "symptom": "Pain in legs",
+    "medical_term": "Bilateral lower extremity pain",
+    "related_terms": []
+  },
+  {
+    "id": 128,
+    "symptom": "Pain in thighs",
+    "medical_term": "Bilateral lower extremity pain",
+    "related_terms": []
+  },
+  {
+    "id": 129,
+    "symptom": "Pain with swallowing",
+    "medical_term": "Odynophagia",
+    "related_terms": ["Painful swallowing"]
+  },
+  {
+    "id": 130,
+    "symptom": "Painful restriction in opening the mouth",
+    "medical_term": "Trismus",
+    "related_terms": ["Lockjaw", "Limited jaw mobility"]
+  },
+  {
+    "id": 131,
+    "symptom": "Pain when walking",
+    "medical_term": "Claudication",
+    "related_terms": ["Painful walking", "Intermittent claudication"]
+  },
+  {
+    "id": 132,
+    "symptom": "Pale gray skin",
+    "medical_term": "Pallor",
+    "related_terms": []
+  },
+  {
+    "id": 133,
+    "symptom": "Pale skin",
+    "medical_term": "Pallor",
+    "related_terms": []
+  },
+  {
+    "id": 134,
+    "symptom": "Phlegm",
+    "medical_term": "Productive sputum",
+    "related_terms": ["Wet cough"]
+  },
+  {
+    "id": 135,
+    "symptom": "Trouble speaking or poor articulation of words (slurred speech)",
+    "medical_term": "Dysarthria",
+    "related_terms": ["Slurred speech", "Difficulty with speech"]
+  },
+  {
+    "id": 136,
+    "symptom": "Mucus dripping down the throat",
+    "medical_term": "Post-nasal drip",
+    "related_terms": ["Postnasal drip", "Postnasal drainage"]
+  },
+  {
+    "id": 137,
+    "symptom": "Presence of excess fat in feces",
+    "medical_term": "Steatorrhea",
+    "related_terms": ["Fatty stools"]
+  },
+  {
+    "id": 138,
+    "symptom": "Prominent veins on calf",
+    "medical_term": "Varicose veins",
+    "related_terms": []
+  },
+  {
+    "id": 139,
+    "symptom": "Puffy face and eyes",
+    "medical_term": "Facial edema",
+    "related_terms": []
+  },
+  {
+    "id": 140,
+    "symptom": "History of heart disease",
+    "medical_term": "Heart disease",
+    "related_terms": []
+  },
+  {
+    "id": 141,
+    "symptom": "Raised bumps on skin",
+    "medical_term": "Papules",
+    "related_terms": []
+  },
+  {
+    "id": 142,
+    "symptom": "Reading below the expected level for one's age",
+    "medical_term": "Dyslexia",
+    "related_terms": []
+  },
+  {
+    "id": 143,
+    "symptom": "Red rash around the mouth",
+    "medical_term": "Perioral dermatitis",
+    "related_terms": []
+  },
+  {
+    "id": 144,
+    "symptom": "Red spots over body",
+    "medical_term": "Dermatitis",
+    "related_terms": []
+  },
+  {
+    "id": 145,
+    "symptom": "Red blood spots over body",
+    "medical_term": "Petechiae",
+    "related_terms": []
+  },
+  {
+    "id": 146,
+    "symptom": "Restlessness",
+    "medical_term": "Restlessness",
+    "related_terms": ["Restless", "Unable to sit still or relax"]
+  },
+  {
+    "id": 147,
+    "symptom": "Ringing in the ears",
+    "medical_term": "Tinnitus",
+    "related_terms": []
+  },
+  {
+    "id": 148,
+    "symptom": "Runny nose",
+    "medical_term": "Rhinorrhea",
+    "related_terms": ["Rhinitis"]
+  },
+  {
+    "id": 149,
+    "symptom": "Seizures",
+    "medical_term": "Convulsions",
+    "related_terms": []
+  },
+  {
+    "id": 150,
+    "symptom": "Severe episodic pain of the rectum and anus",
+    "medical_term": "Proctalgia fugax",
+    "related_terms": []
+  },
+  {
+    "id": 151,
+    "symptom": "Shortness of Breath",
+    "medical_term": "Dyspnea",
+    "related_terms": []
+  },
+  {
+    "id": 152,
+    "symptom": "Shortness of Breath during exercise or activity",
+    "medical_term": "Dyspnea on exertion",
+    "related_terms": []
+  },
+  {
+    "id": 153,
+    "symptom": "Skin peeling",
+    "medical_term": "Skin desquamation",
+    "related_terms": []
+  },
+  {
+    "id": 154,
+    "symptom": "Skin rash",
+    "medical_term": "Rash",
+    "related_terms": []
+  },
+  {
+    "id": 155,
+    "symptom": "Sleeping issues",
+    "medical_term": "Insomnia",
+    "related_terms": []
+  },
+  {
+    "id": 156,
+    "symptom": "Slow heartbeat",
+    "medical_term": "Bradycardia",
+    "related_terms": []
+  },
+  {
+    "id": 157,
+    "symptom": "Sudden trouble walking, dizziness, or lack of coordination",
+    "medical_term": "Sudden onset ataxia",
+    "related_terms": []
+  },
+  {
+    "id": 158,
+    "symptom": "Sneezing",
+    "medical_term": "Sneezing",
+    "related_terms": []
+  },
+  {
+    "id": 159,
+    "symptom": "Snoring",
+    "medical_term": "Snoring",
+    "related_terms": []
+  },
+  {
+    "id": 160,
+    "symptom": "Sore throat",
+    "medical_term": "Pharyngitis",
+    "related_terms": ["Throat pain"]
+  },
+  {
+    "id": 161,
+    "symptom": "Stiff neck",
+    "medical_term": "Neck stiffness",
+    "related_terms": []
+  },
+  {
+    "id": 162,
+    "symptom": "Stiffness with movement",
+    "medical_term": "Spasticity",
+    "related_terms": []
+  },
+  {
+    "id": 163,
+    "symptom": "Stomach cramps",
+    "medical_term": "Abdominal cramps",
+    "related_terms": []
+  },
+  {
+    "id": 164,
+    "symptom": "Stomach pain",
+    "medical_term": "Abdominal pain",
+    "related_terms": ["Belly pain"]
+  },
+  {
+    "id": 165,
+    "symptom": "Stress",
+    "medical_term": "Stress",
+    "related_terms": []
+  },
+  {
+    "id": 166,
+    "symptom": "Stuffiness",
+    "medical_term": "Nasal congestion",
+    "related_terms": ["Stuffy nose"]
+  },
+  {
+    "id": 167,
+    "symptom": "Sweating",
+    "medical_term": "Diaphoresis",
+    "related_terms": []
+  },
+  {
+    "id": 168,
+    "symptom": "Swelling around the eyes",
+    "medical_term": "Periorbital edema",
+    "related_terms": []
+  },
+  {
+    "id": 169,
+    "symptom": "Swelling in the ankles",
+    "medical_term": "Lower extremity edema",
+    "related_terms": []
+  },
+  {
+    "id": 170,
+    "symptom": "Swelling in the belly",
+    "medical_term": "Abdominal distention",
+    "related_terms": []
+  },
+  {
+    "id": 171,
+    "symptom": "Swelling in the feet",
+    "medical_term": "Lower extremity edema",
+    "related_terms": []
+  },
+  {
+    "id": 172,
+    "symptom": "Swelling in the legs",
+    "medical_term": "Lower extremity edema",
+    "related_terms": []
+  },
+  {
+    "id": 173,
+    "symptom": "Swollen neck glands",
+    "medical_term": "Lymphadenopathy",
+    "related_terms": ["Swollen lymph nodes"]
+  },
+  {
+    "id": 174,
+    "symptom": "Swollen tonsils",
+    "medical_term": "Tonsilitis",
+    "related_terms": ["Inflamed tonsils"]
+  },
+  {
+    "id": 175,
+    "symptom": "White or yellow coating on your tonsils",
+    "medical_term": "Tonsilitis",
+    "related_terms": [
+      "Inflamed tonsils",
+      "White spots on tonsils",
+      "White or yellow patches or pus on tonsils"
+    ]
+  },
+  {
+    "id": 176,
+    "symptom": "Toothache",
+    "medical_term": "Toothache",
+    "related_terms": ["Tooth pain", "Pain in teeth"]
+  },
+  {
+    "id": 177,
+    "symptom": "Upper belly pain",
+    "medical_term": "Epigastric pain",
+    "related_terms": []
+  },
+  {
+    "id": 178,
+    "symptom": "Vision Loss",
+    "medical_term": "Vision loss",
+    "related_terms": [
+      "Visual disturbances",
+      "Diminished visual acuity",
+      "Decreased visual acuity",
+      "Loss of peripheral vision",
+      "Loss of central vision"
+    ]
+  },
+  {
+    "id": 179,
+    "symptom": "Visual disturbances",
+    "medical_term": "Visual disturbances",
+    "related_terms": []
+  },
+  {
+    "id": 180,
+    "symptom": "Vomiting",
+    "medical_term": "Vomiting",
+    "related_terms": []
+  },
+  {
+    "id": 181,
+    "symptom": "Vomiting of blood",
+    "medical_term": "Hematemesis",
+    "related_terms": []
+  },
+  {
+    "id": 182,
+    "symptom": "Watering from eyes",
+    "medical_term": "Tearing",
+    "related_terms": ["Watery eyes", "Eye watering", "Epiphora", "Eye tearing"]
+  },
+  {
+    "id": 183,
+    "symptom": "Weakness",
+    "medical_term": "Muscle weakness",
+    "related_terms": []
+  },
+  {
+    "id": 184,
+    "symptom": "Weakness in limbs",
+    "medical_term": "Muscle weakness",
+    "related_terms": []
+  },
+  {
+    "id": 185,
+    "symptom": "Weight gain",
+    "medical_term": "Weight gain",
+    "related_terms": []
+  },
+  {
+    "id": 186,
+    "symptom": "Weight loss",
+    "medical_term": "Anorexia",
+    "related_terms": []
+  },
+  {
+    "id": 187,
+    "symptom": "Noisy breathing on expiration",
+    "medical_term": "Wheezing",
+    "related_terms": ["High-pitched noise that occurs during expiration"]
+  },
+  {
+    "id": 188,
+    "symptom": "Inability to taste properly",
+    "medical_term": "Dysgeusia",
+    "related_terms": ["Can't taste properly"]
+  },
+  {
+    "id": 189,
+    "symptom": "Yellow crusts with oozing",
+    "medical_term": "Impetigo",
+    "related_terms": []
+  },
+  {
+    "id": 190,
+    "symptom": "Yellowish skin",
+    "medical_term": "Jaundice",
+    "related_terms": ["Yellow skin"]
+  },
+  {
+    "id": 191,
+    "symptom": "Ear Itching",
+    "medical_term": "Bilateral pruritis of ears",
+    "related_terms": ["Bilateral pruritis"]
+  },
+  {
+    "id": 192,
+    "symptom": "Ear reddening",
+    "medical_term": "Erythematous ear",
+    "related_terms": ["Erythematous ears", "Red ears"]
+  },
+  {
+    "id": 193,
+    "symptom": "Ear pressure",
+    "medical_term": "Aural pressure",
+    "related_terms": ["Aural fullness", "Ear discomfort"]
+  },
+  {
+    "id": 194,
+    "symptom": "Red eye",
+    "medical_term": "Conjunctivitis",
+    "related_terms": ["Unilateral conjunctivitis", "Pink eye"]
+  },
+  {
+    "id": 195,
+    "symptom": "Red eyes",
+    "medical_term": "Bilateral Conjunctivitis",
+    "related_terms": ["Red eyes", "Pink eyes", "Conjunctival redness", "Redness of the eyes"]
+  },
+  {
+    "id": 196,
+    "symptom": "Eye itching",
+    "medical_term": "Ocular pruritis",
+    "related_terms": ["Itchiness of the eye", "Itchy eyes", "Eye irritation"]
+  },
+  {
+    "id": 197,
+    "symptom": "Eyelids 'stuck shut' in the morning",
+    "medical_term": "Crusting or matting of the eyelashes in the morning",
+    "related_terms": ["Flaking or scaling of the eyelid skin"]
+  },
+  {
+    "id": 198,
+    "symptom": "Burning/sandy/gritty/sratchy feeling in eyes",
+    "medical_term": "Gritty or burning sensation in the eye",
+    "related_terms": ["Eye itching", "Eye irritation"]
+  },
+  {
+    "id": 199,
+    "symptom": "Severe foreign body sensation preventing eye from opening",
+    "medical_term": "Foreign body sensation in eye",
+    "related_terms": ["Eye irritation"]
+  },
+  {
+    "id": 200,
+    "symptom": "Clouding of the eye",
+    "medical_term": "Corneal opacity",
+    "related_terms": [
+      "Corneal opacities",
+      "Corneal scarring",
+      "Scarring of the cornea",
+      "Scarred cornea"
+    ]
+  },
+  {
+    "id": 201,
+    "symptom": "Severe headache with nausea",
+    "medical_term": "Severe headache with nausea",
+    "related_terms": []
+  },
+  {
+    "id": 202,
+    "symptom": "Eye pain",
+    "medical_term": "Ophthalmalgia",
+    "related_terms": ["Ocular pain", "Deep eye pain", "Severe throbbing eye pain"]
+  },
+  {
+    "id": 203,
+    "symptom": "Red bump/lesion on eyelid",
+    "medical_term": "Eyelid lesion",
+    "related_terms": ["Meibomian cyst", "Periorbital cyst", "Eyelid bump", "Eyelid cyst"]
+  },
+  {
+    "id": 204,
+    "symptom": "Painful lesion/lump on eyelid (may look like a boil or pimple)",
+    "medical_term": "Painful Eyelid lesion",
+    "related_terms": [
+      "Eyelid boil",
+      "Eyelid pimple",
+      "Red, painful lump near the edge of the eyelid"
+    ]
+  },
+  {
+    "id": 205,
+    "symptom": "Muffled voice",
+    "medical_term": "Hot potato voice",
+    "related_terms": ["Muffled speech quality", "Defect in speech resonance", "Dysphonia"]
+  },
+  {
+    "id": 206,
+    "symptom": "Facial pain or pressure",
+    "medical_term": "Facial pain or pressure",
+    "related_terms": [
+      "Face pain",
+      "Face pressure",
+      "Pain, tenderness and swelling around eyes, cheeks, nose or forehead"
+    ]
+  },
+  {
+    "id": 207,
+    "symptom": "Noisy breathing when taking a breath",
+    "medical_term": "Stridor",
+    "related_terms": [
+      "High-pitched, whistling sound when taking a breath",
+      "Noisy breathing on inspiration"
+    ]
+  },
+  {
+    "id": 208,
+    "symptom": "Pain that is aggravated with deep breathing",
+    "medical_term": "Pleuritis",
+    "related_terms": ["Pain when breathing", "Pain on inspiration", "Painful breathing"]
+  },
+  {
+    "id": 209,
+    "symptom": "Pain that is reduced by leaning forward or sitting upright",
+    "medical_term": "Pain that is reduced by leaning forward or sitting upright",
+    "related_terms": [""]
+  },
+  {
+    "id": 210,
+    "symptom": "Sharp, stabbing chest pain",
+    "medical_term": "Substernal pain that is sharp/stabbing in nature",
+    "related_terms": ["Chest pain", "Chest pressure", "Chest discomfort"]
+  },
+  {
+    "id": 211,
+    "symptom": "Chest pain that travels to the left neck, jaw, back, shoulder or arm",
+    "medical_term": "Chest pain that radiates to the left neck, jaw, back, shoulder or arm",
+    "related_terms": [
+      "Radiating chest pain",
+      "Chest pressure",
+      "Chest discomfort",
+      "Gripping, vise-like substernal pain or pressure"
+    ]
+  },
+  {
+    "id": 212,
+    "symptom": "Shortness of breath when lying down",
+    "medical_term": "Orthopnea",
+    "related_terms": ["Short of breath when laying down", "Shortness of breath"]
+  },
+  {
+    "id": 213,
+    "symptom": "Shortness of breath during sleep that comes on suddenly",
+    "medical_term": "Paroxysmal nocturnal dyspnea",
+    "related_terms": ["Shortness of breath unrelated to exertion", "PND"]
+  },
+  {
+    "id": 214,
+    "symptom": "Poor nail/ hair growth",
+    "medical_term": "Poor nail/ hair growth",
+    "related_terms": []
+  },
+  {
+    "id": 215,
+    "symptom": "Skin ulcers",
+    "medical_term": "Skin ulcerations",
+    "related_terms": ["Skin ulcer", "Ulceration of the skin"]
+  },
+  {
+    "id": 216,
+    "symptom": "Red, purple or black skin",
+    "medical_term": "Skin gangrenes",
+    "related_terms": ["Gangrene"]
+  },
+  {
+    "id": 217,
+    "symptom": "Burning pain in the ball of the foot and toes that is worse at rest",
+    "medical_term": "Ischemic rest pain",
+    "related_terms": []
+  },
+  {
+    "id": 218,
+    "symptom": "Pain aggravated by elevation of extremities",
+    "medical_term": "Pain aggravated by elevation of extremities",
+    "related_terms": []
+  },
+  {
+    "id": 219,
+    "symptom": "Skin that's red or discolored",
+    "medical_term": "Skin discoloration",
+    "related_terms": ["Change in skin color"]
+  },
+  {
+    "id": 220,
+    "symptom": "Warmth and/or redness of skin",
+    "medical_term": "Erythema",
+    "related_terms": ["Redness", "Warmth"]
+  },
+  {
+    "id": 221,
+    "symptom": "Drooping of one side of the face or asymmetrical smile",
+    "medical_term": "Bell's palsy",
+    "related_terms": ["Facial drooping", "Facial asymmetry"]
+  },
+  {
+    "id": 222,
+    "symptom": "Sudden weakness, numbness or paralysis in the face, arm or leg",
+    "medical_term": "Sudden weakness, numbness or paralysis in the face, arm or leg",
+    "related_terms": ["Unilateral paralysis", "Unilateral weakness", "Unilateral numbness"]
+  },
+  {
+    "id": 223,
+    "symptom": "Areas of skin that turn pale or white then blue when exposed to cold, or during stress or emotional upset",
+    "medical_term": "Peripheral cyanosis",
+    "related_terms": ["Redness of digits", "Warmth"]
+  },
+  {
+    "id": 224,
+    "symptom": "Numbness or pain in fingers or toes when exposed to cold temperatures or emotional stress",
+    "medical_term": "Exaggerated vascular response to cold temperature or emotional stress",
+    "related_terms": ["Raynaud's", "Numbness of digits", "Pain in digits"]
+  },
+  {
+    "id": 225,
+    "symptom": "Blue-ish discoloration (cyanosis) of nail beds",
+    "medical_term": "Cyanosis of nail beds",
+    "related_terms": ["Nail cyanosis", "Blue nails"]
+  },
+  {
+    "id": 226,
+    "symptom": "Cold hands and feet",
+    "medical_term": "Vasoconstriction of extremities",
+    "related_terms": []
+  },
+  {
+    "id": 227,
+    "symptom": "Feeling of impending doom",
+    "medical_term": "Panic attack",
+    "related_terms": []
+  },
+  {
+    "id": 228,
+    "symptom": "Cold sweats (sudden sweating that is unrelated to heat or exertion)",
+    "medical_term": "Diaphoresis",
+    "related_terms": []
+  },
+  {
+    "id": 229,
+    "symptom": "Reduced ability to exercise",
+    "medical_term": "Exercise intolerance",
+    "related_terms": []
+  },
+  {
+    "id": 230,
+    "symptom": "Change in bowel habits",
+    "medical_term": "Change in bowel habits",
+    "related_terms": []
+  },
+  {
+    "id": 231,
+    "symptom": "History of iron deficiency anemia",
+    "medical_term": "Iron deficiency anemia",
+    "related_terms": []
+  },
+  {
+    "id": 232,
+    "symptom": "Itchy skin ",
+    "medical_term": "Pruritis",
+    "related_terms": ["Itchiness of the skin", "Skin irritation"]
+  },
+  {
+    "id": 233,
+    "symptom": "Unable to eat full meal",
+    "medical_term": "Early satiety",
+    "related_terms": []
+  },
+  {
+    "id": 234,
+    "symptom": "Feeling excessively full after meals",
+    "medical_term": "Postprandial fullness",
+    "related_terms": []
+  },
+  {
+    "id": 235,
+    "symptom": "History of anemia",
+    "medical_term": "Anemia",
+    "related_terms": []
+  },
+  {
+    "id": 236,
+    "symptom": "Watery diarrhea",
+    "medical_term": "Watery diarrhea",
+    "related_terms": []
+  },
+  {
+    "id": 237,
+    "symptom": "Upper stomach/belly pain that worsens with food",
+    "medical_term": "Epigastric pain that worsens with food",
+    "related_terms": []
+  },
+  {
+    "id": 238,
+    "symptom": "Upper stomach/belly pain that gets better with food or antacids",
+    "medical_term": "Epigastric pain relieved by food or antacids",
+    "related_terms": []
+  },
+  {
+    "id": 239,
+    "symptom": "Upper stomach/belly pain that worsens when fasting and at night",
+    "medical_term": "Epigastric pain that worsens with fasting and at night",
+    "related_terms": []
+  },
+  {
+    "id": 240,
+    "symptom": "Sensation of food or sour liquid (acid) backing up into your throat or mouth (Backwash/Regurgitation)",
+    "medical_term": "Regurgitation",
+    "related_terms": ["Acid reflux"]
+  },
+  {
+    "id": 241,
+    "symptom": "Burning or gnawing pain in the centre of the tummy (stomach/abdomen)",
+    "medical_term": "Abdominal pain that is burning or gnawing in nature",
+    "related_terms": []
+  },
+  {
+    "id": 242,
+    "symptom": "Upper stomach/belly pain that worsens at night or while lying down",
+    "medical_term": "Epigastric pain that worsens at night or while lying down",
+    "related_terms": []
+  },
+  {
+    "id": 243,
+    "symptom": "Bitter taste or sour taste",
+    "medical_term": "Dysgeusia (bitter/sour)",
+    "related_terms": []
+  },
+  {
+    "id": 244,
+    "symptom": "Pain that worsens with cough, walking or jarring movements",
+    "medical_term": "Pain that worsens with cough, walking, or jarring movements",
+    "related_terms": ["Abdominal pain that worsens with cough or movement"]
+  },
+  {
+    "id": 245,
+    "symptom": "Pain that starts near the navel (belly button) and then moves to the right side",
+    "medical_term": "Abdominal pain that shifts to the right side",
+    "related_terms": ["Abdominal pain migration"]
+  },
+  {
+    "id": 246,
+    "symptom": "Abdominal (stomach) pain and cramping that is relieved by moving bowels",
+    "medical_term": "Abdominal pain that is relieved by moving bowels",
+    "related_terms": [""]
+  }
+]

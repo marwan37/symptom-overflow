@@ -1,0 +1,398 @@
+[
+  {
+    "id": 1,
+    "diagnosis": "Acute Otitis Media",
+    "symptoms": [53, 55, 70],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [0, 6],
+    "tags": "heent"
+  },
+  {
+    "id": 2,
+    "diagnosis": "Otitis Externa (Swimmer's Ear)",
+    "symptoms": [52, 57, 78, 191, 192],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 3,
+    "diagnosis": "Meniere's disease",
+    "symptoms": [46, 78, 106, 108, 147, 193],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 4,
+    "diagnosis": "Bacterial conjunctivitis",
+    "symptoms": [105, 194, 195, 196, 197],
+    "associated_symptoms": "",
+    "red_flags": [105, 178, 199, 200, 201],
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 5,
+    "diagnosis": "Viral conjunctivitis",
+    "symptoms": [194, 195, 196, 198],
+    "associated_symptoms": "",
+    "red_flags": [105, 178, 199, 200, 201],
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 6,
+    "diagnosis": "Allergic conjunctivitis",
+    "symptoms": [148, 158, 182, 195, 196],
+    "associated_symptoms": "",
+    "red_flags": [105, 178, 199, 200, 201],
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 7,
+    "diagnosis": "Angle-closure glaucoma",
+    "symptoms": [19, 202, 105, 201, 76, 116, 178, 180],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 8,
+    "diagnosis": "Corneal abrasion/foreign body",
+    "symptoms": [202, 105],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 9,
+    "diagnosis": "Blepharitis",
+    "symptoms": [196, 198, 195, 194, 197, 105],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 10,
+    "diagnosis": "Chalazion",
+    "symptoms": [203],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 11,
+    "diagnosis": "Hordeolum/stye",
+    "symptoms": [204, 202],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 12,
+    "diagnosis": "Strep throat (Bacterial pharyngitis)",
+    "symptoms": [160, 175, 70, 68],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 13,
+    "diagnosis": "Peri-tonsillar abscess",
+    "symptoms": [160, 175, 205, 43, 70, 68, 10],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 14,
+    "diagnosis": "Seasonal Allergies",
+    "symptoms": [158, 182, 196, 148],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 15,
+    "diagnosis": "Sinusitis",
+    "symptoms": [148, 166, 206, 76, 136, 160, 37],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 16,
+    "diagnosis": "Mononucleosis",
+    "symptoms": [62, 66, 70, 160, 173],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 17,
+    "diagnosis": "Epiglottitis",
+    "symptoms": [70, 160, 205, 48, 207],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "heent"
+  },
+  {
+    "id": 18,
+    "diagnosis": "Arrhythmia",
+    "symptoms": [106, 64, 80, 90, 140, 156, 65],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 19,
+    "diagnosis": "Pericarditis",
+    "symptoms": [31, 37, 43, 65, 66, 68, 70, 71, 210, 211, 212],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 20,
+    "diagnosis": "Congestive Heart Failure (CHF)",
+    "symptoms": [17, 18, 51, 65, 66, 152, 169, 170, 171, 172, 185, 207, 212],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 21,
+    "diagnosis": "Right-sided Congestive Heart Failure",
+    "symptoms": [17, 18, 27, 37, 46, 66, 98, 169, 170, 171, 172, 185, 225],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 22,
+    "diagnosis": "Left-sided Congestive Heart Failure",
+    "symptoms": [17, 18, 27, 34, 37, 65, 66, 152, 212, 213],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 23,
+    "diagnosis": "Valvular heart disease",
+    "symptoms": [28, 46, 64, 66, 80, 151, 169, 171, 172, 212, 213],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 24,
+    "diagnosis": "Peripheral Arterial Disease (PAD)",
+    "symptoms": [66, 73, 131, 179, 214, 215, 216, 217, 218],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 25,
+    "diagnosis": "Deep Vein Thrombosis (DVT)",
+    "symptoms": [103, 104, 169, 172, 219, 220],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 26,
+    "diagnosis": "Transient Ischemic Attack (TIA)",
+    "symptoms": [19, 44, 47, 106, 108, 135, 179, 221, 222],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 27,
+    "diagnosis": "Stroke",
+    "symptoms": [19, 44, 47, 106, 108, 135, 157, 178, 179, 221, 222],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 28,
+    "diagnosis": "Raynaud's Phenomenon",
+    "symptoms": [223, 224],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 29,
+    "diagnosis": "Angina Pectoris",
+    "symptoms": [26, 27, 28, 29, 79, 116, 151, 176, 211],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 30,
+    "diagnosis": "Anemia",
+    "symptoms": [46, 66, 90, 106, 133, 151, 183, 226],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 31,
+    "diagnosis": "Myocardial Infarction (MI)",
+    "symptoms": [8, 28, 29, 30, 46, 66, 90, 116, 151, 167, 180, 211, 227, 228],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 32,
+    "diagnosis": "Atrial Fibrillation",
+    "symptoms": [28, 46, 66, 80, 106, 151, 183, 229],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "cvs"
+  },
+  {
+    "id": 33,
+    "diagnosis": "Ascites",
+    "symptoms": [1, 2, 13, 87, 116, 151, 169, 172, 180, 185],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [50, 120],
+    "tags": "gi"
+  },
+  {
+    "id": 34,
+    "diagnosis": "Colon Cancer",
+    "symptoms": [15, 35, 164, 230, 231],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 35,
+    "diagnosis": "Dyspepsia",
+    "symptoms": [79, 177, 233, 234],
+    "associated_symptoms": "",
+    "red_flags": [43, 180, 186, 235],
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 36,
+    "diagnosis": "Gastritis",
+    "symptoms": [87, 116, 177, 180, 234],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 37,
+    "diagnosis": "Gastroenteritis",
+    "symptoms": [41, 68, 116, 163, 180, 236],
+    "associated_symptoms": [31, 66, 71, 98],
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 38,
+    "diagnosis": "Duodenal ulcer (PUD)",
+    "symptoms": [13, 79, 177, 233, 234, 238, 239, 240],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 39,
+    "diagnosis": "Gastric ulcer (PUD)",
+    "symptoms": [79, 87, 98, 116, 186, 237, 240, 241],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 40,
+    "diagnosis": "Gastroesophageal reflux disease (GERD) ",
+    "symptoms": [26, 28, 43, 51, 79, 116, 177, 240, 242, 243],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 41,
+    "diagnosis": "Malabsorption syndrome",
+    "symptoms": [13, 66, 98, 163, 186, 235],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 42,
+    "diagnosis": "Celiac disease",
+    "symptoms": [13, 41, 61, 66, 235],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 43,
+    "diagnosis": "Appendicitis",
+    "symptoms": [70, 98, 116, 164, 180, 244, 245],
+    "associated_symptoms": [31, 41, 68, 71, 180],
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  },
+  {
+    "id": 44,
+    "diagnosis": "Irritable bowel syndrome (IBS)",
+    "symptoms": [13, 35, 41, 61, 164, 230, 246],
+    "associated_symptoms": "",
+    "red_flags": "",
+    "age": [],
+    "tags": "gi"
+  }
+]
