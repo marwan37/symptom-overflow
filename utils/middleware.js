@@ -3,8 +3,9 @@ morgan.token("body", req => JSON.stringify(req.body));
 
 const requestLogger = morgan(":method :url :status :res[content-length] - :response-time ms :body");
 
-const unknownEndpoint = (request, response) => {
-  response.status(404).send({ error: "unknown endpoint" });
+const unknownEndpoint = (req, res) => {
+  res.redirect("/");
+  // res.status(404).send({ error: "unknown endpoint" });
 };
 
 const errorHandler = (error, req, res, next) => {
