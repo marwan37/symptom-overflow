@@ -4,13 +4,22 @@ const Diagnosis = require("../models/diagnosis");
 const getDiagnoses = async (req, res, next) => {
   let diagnoses;
   try {
-    diagnoses = await Diagnosis.find({});
+    diagnoses = await Diagnosis.find({}).sort({ tags: 1, diagnosis: 1 });
   } catch (err) {
     return next(new HttpError("Fetching diagnoses failed, please try again later", 500));
   }
 
+  const diagnosesHashTable = {};
+  diagnoses.forEach(dx => {
+    const tags = dx.tags || "all";
+    if (!diagnosesHashTable[tags]) {
+      diagnosesHashTable[tags] = {};
+    }
+    diagnosesHashTable[tags][dx.id] = dx.toObject({ getters: true });
+  });
+
   res.status(200).json({
-    diagnoses: diagnoses.map(dx => dx.toObject({ getters: true }))
+    diagnoses: diagnosesHashTable
   });
 };
 
@@ -34,14 +43,7 @@ const getDiagnosisById = async (req, res, next) => {
   res.json({ diagnosis: diagnosis.toObject({ getters: true }) });
 };
 
-const createDiagnosis = async (req, res, next) => {
-  let diagnoses;
-  try {
-    diagnoses = await Diagnosis.find({});
-  } catch (err) {
-    return next(new HttpError("Fetching diagnoses failed, please try again later", 500));
-  }
-
+const createDiagnosis = async (req, res) => {
   const { diagnosis, symptoms, associated_symptoms, minor, age, tags } = req.body;
 
   const newDiagnosis = new Diagnosis({
@@ -66,27 +68,15 @@ const updateDiagnosis = async (req, res, next) => {
   const { diagnosis, symptoms, associated_symptoms, minor, age, tags } = req.body;
   const diagnosisId = req.params.id;
 
-  let foundDx;
-  try {
-    foundDx = await Diagnosis.findById(diagnosisId);
-  } catch (err) {
-    return next(new HttpError("Could not find diagnosis", 500));
-  }
-
-  foundDx.diagnosis = diagnosis;
-  foundDx.symptoms = symptoms;
-  foundDx.associated_symptoms = associated_symptoms;
-  foundDx.minor = minor;
-  foundDx.age = age;
-  foundDx.tags = tags;
-
-  try {
-    await foundDx.save();
-  } catch (err) {
-    console.log(err);
-  }
-
-  res.status(200).json({ diagnosis: foundDx.toObject({ getters: true }) });
+  await Diagnosis.findByIdAndUpdate(
+    diagnosisId,
+    { diagnosis, symptoms, associated_symptoms, minor, age, tags },
+    { new: true }
+  )
+    .then(updatedDiagnosis =>
+      res.status(200).json({ diagnosis: updatedDiagnosis.toObject({ getters: true }) })
+    )
+    .catch(error => next(error));
 };
 
 const deleteDiagnosis = async (req, res, next) => {
