@@ -38,15 +38,15 @@ app.use("/api/diagnoses", diagnosesRoutes);
 app.use("/api/symptoms", symptomsRoutes);
 
 // **************** SERVE FRONTEND STATIC BUILD *********************
-// app.use(express.static("build"));
+app.use(express.static("build"));
 
-// app.get("/symptoms", (req, res) => res.sendFile(indexPath));
-// app.get("/symptoms/add", (req, res) => res.sendFile(indexPath));
-// app.get("/symptoms/:id", (req, res) => res.sendFile(indexPath));
+app.get("/symptoms", (req, res) => res.sendFile(indexPath));
+app.get("/symptoms/add", (req, res) => res.sendFile(indexPath));
+app.get("/symptoms/:id", (req, res) => res.sendFile(indexPath));
 
-// app.get("/diagnoses", (req, res) => res.sendFile(indexPath));
-// app.get("/diagnoses/add", (req, res) => res.sendFile(indexPath));
-// app.get("/diagnoses/:id", (req, res) => res.sendFile(indexPath));
+app.get("/diagnoses", (req, res) => res.sendFile(indexPath));
+app.get("/diagnoses/add", (req, res) => res.sendFile(indexPath));
+app.get("/diagnoses/:id", (req, res) => res.sendFile(indexPath));
 
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
