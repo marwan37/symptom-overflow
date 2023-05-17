@@ -1,4 +1,4 @@
-const path = require("path");
+// const path = require("path");
 const config = require("./utils/config");
 const middleware = require("./utils/middleware");
 const cors = require("cors");
@@ -7,11 +7,11 @@ const app = express();
 const diagnosesRoutes = require("./routes/diagnoses-routes");
 const symptomsRoutes = require("./routes/symptoms-routes");
 
-const http = require("http");
-const httpProxy = require("http-proxy");
-const proxy = httpProxy.createProxyServer({});
+// const http = require("http");
+// const httpProxy = require("http-proxy");
+// const proxy = httpProxy.createProxyServer({});
 
-const indexPath = path.resolve(__dirname, "build", "index.html");
+// const indexPath = path.resolve(__dirname, "build", "index.html");
 
 // **************** MONGOOSE *********************
 const mongoose = require("mongoose");
@@ -38,15 +38,15 @@ app.use("/api/diagnoses", diagnosesRoutes);
 app.use("/api/symptoms", symptomsRoutes);
 
 // **************** SERVE FRONTEND STATIC BUILD *********************
-app.use(express.static("build"));
+// app.use(express.static("build"));
 
-app.get("/symptoms", (req, res) => res.sendFile(indexPath));
-app.get("/symptoms/add", (req, res) => res.sendFile(indexPath));
-app.get("/symptoms/:id", (req, res) => res.sendFile(indexPath));
+// app.get("/symptoms", (req, res) => res.sendFile(indexPath));
+// app.get("/symptoms/add", (req, res) => res.sendFile(indexPath));
+// app.get("/symptoms/:id", (req, res) => res.sendFile(indexPath));
 
-app.get("/diagnoses", (req, res) => res.sendFile(indexPath));
-app.get("/diagnoses/add", (req, res) => res.sendFile(indexPath));
-app.get("/diagnoses/:id", (req, res) => res.sendFile(indexPath));
+// app.get("/diagnoses", (req, res) => res.sendFile(indexPath));
+// app.get("/diagnoses/add", (req, res) => res.sendFile(indexPath));
+// app.get("/diagnoses/:id", (req, res) => res.sendFile(indexPath));
 
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
