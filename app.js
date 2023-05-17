@@ -38,7 +38,12 @@ app.use("/api/diagnoses", diagnosesRoutes);
 app.use("/api/symptoms", symptomsRoutes);
 
 // **************** SERVE FRONTEND STATIC BUILD *********************
-// app.use(express.static("build"));
+app.use(express.static("build"));
+
+// Catch-all route to handle client-side routing and serve index.html
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
 
 // app.get("/symptoms", (req, res) => res.sendFile(indexPath));
 // app.get("/symptoms/add", (req, res) => res.sendFile(indexPath));
@@ -50,10 +55,5 @@ app.use("/api/symptoms", symptomsRoutes);
 
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
-
-// Catch-all route to handle client-side routing and serve index.html
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "build", "index.html"));
-// });
 
 module.exports = app;
