@@ -1,4 +1,4 @@
-// const path = require("path");
+const path = require("path");
 const config = require("./utils/config");
 const middleware = require("./utils/middleware");
 const cors = require("cors");
@@ -11,7 +11,7 @@ const symptomsRoutes = require("./routes/symptoms-routes");
 // const httpProxy = require("http-proxy");
 // const proxy = httpProxy.createProxyServer({});
 
-// const indexPath = path.resolve(__dirname, "build", "index.html");
+const indexPath = path.resolve(__dirname, "build", "index.html");
 
 // **************** MONGOOSE *********************
 const mongoose = require("mongoose");
@@ -41,17 +41,17 @@ app.use("/api/symptoms", symptomsRoutes);
 app.use(express.static("build"));
 
 // Catch-all route to handle client-side routing and serve index.html
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "build", "index.html"));
+// });
 
-// app.get("/symptoms", (req, res) => res.sendFile(indexPath));
-// app.get("/symptoms/add", (req, res) => res.sendFile(indexPath));
-// app.get("/symptoms/:id", (req, res) => res.sendFile(indexPath));
+app.get("/symptoms", (req, res) => res.sendFile(indexPath));
+app.get("/symptoms/add", (req, res) => res.sendFile(indexPath));
+app.get("/symptoms/:id", (req, res) => res.sendFile(indexPath));
 
-// app.get("/diagnoses", (req, res) => res.sendFile(indexPath));
-// app.get("/diagnoses/add", (req, res) => res.sendFile(indexPath));
-// app.get("/diagnoses/:id", (req, res) => res.sendFile(indexPath));
+app.get("/diagnoses", (req, res) => res.sendFile(indexPath));
+app.get("/diagnoses/add", (req, res) => res.sendFile(indexPath));
+app.get("/diagnoses/:id", (req, res) => res.sendFile(indexPath));
 
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
