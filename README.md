@@ -49,19 +49,19 @@ Visit http://localhost:3000 in your browser to explore the application.
 
 **Symptoms:**
 
-- GET /api/symptoms: Retrieve all symptoms.
-- GET /api/symptoms/:id: Retrieve a symptom by ID.
-- POST /api/symptoms: Create a new symptom.
-- PATCH /api/symptoms/:id: Update a symptom.
-- DELETE /api/symptoms/:id: Delete a symptom.
+- GET `/api/symptoms`: Retrieve all symptoms.
+- GET `/api/symptoms/:id`: Retrieve a symptom by ID.
+- POST `/api/symptoms`: Create a new symptom.
+- PATCH `/api/symptoms/:id`: Update a symptom.
+- DELETE `/api/symptoms/:id`: Delete a symptom.
 
 **Diagnoses:**
 
-- GET /api/diagnoses: Retrieve all diagnoses.
-- GET /api/diagnoses/:id: Retrieve a diagnosis by ID.
-- POST /api/diagnoses: Create a new diagnosis.
-- PATCH /api/diagnoses/:id: Update a diagnosis.
-- DELETE /api/diagnoses/:id: Delete a diagnosis.
+- GET `/api/diagnoses`: Retrieve all diagnoses.
+- GET `/api/diagnoses/:id`: Retrieve a diagnosis by ID.
+- POST `/api/diagnoses`: Create a new diagnosis.
+- PATCH `/api/diagnoses/:id`: Update a diagnosis.
+- DELETE `/api/diagnoses/:id`: Delete a diagnosis.
 
 ### License
 This project is licensed under the MIT License.
