@@ -1,6 +1,6 @@
-# SymptoDoc
+# SymptomOverflow
 
-SymptoDoc is a MERN stack application that provides a comprehensive platform for managing symptoms and diagnoses. It allows users to input symptoms and generate a ranked list of differential diagnoses.
+SymptomOverflow is a MERN stack application that provides a comprehensive platform for managing symptoms and diagnoses. It allows users to input symptoms and generate a ranked list of differential diagnoses.
 
 ## Features
 
@@ -26,13 +26,13 @@ SymptoDoc is a MERN stack application that provides a comprehensive platform for
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/marwan37/symptodoc.git
+git clone https://github.com/marwan37/symptom-overflow.git
 ```
 
 2. Navigate to the project directory and install dependencies:
 
 ```bash
-cd symptodoc
+cd symptom-overflow
 npm install
 ```
 
